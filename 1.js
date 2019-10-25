@@ -1,16 +1,14 @@
 document.addEventListener("DOMContentLoaded",function(){
 	var nut = document.querySelector('.nut'),
+		menutrai = document.querySelector('menutrai'),
 		den = document.querySelector('.den'),
-		menu = document.querySelector('.menutrai'),
-		trang = document.querySelector('.mautrang');
-	nut.onclick = function(){
-		den.classList.toggle('hienraden');
-		menu.classList.remove('vetrai');
-		trang.classList.add('xoay');
-	}
-	den.onclick = function(){
-		den.classList.remove('hienraden');
-		menu.classList.add('vetrai');
-		trang.classList.remove('xoay');
-	}
+		khoito = document.querySelector('.noidungto');
+		nut.onclick = function(){
+			den.classList.add('len');
+			khoito.classList.add('dichphai');
+		}
+		den.onclick = function(){
+			den.classList.remove('len');
+			khoito.classList.remove('dichphai');
+		}
 },false);
