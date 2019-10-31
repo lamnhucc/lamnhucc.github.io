@@ -18,10 +18,11 @@ li.nav-item {
     margin: 0 17px;
     padding: 0;
 }
-
+/*
 @media (max-width:576px)
 {
 	* {}
+	
 li.nav-item {
    	float: none!important;
    	display: inline;
@@ -47,4 +48,4 @@ a.navbar-brand {
     text-align: center;
     width: 100%;
 }
-}
+}*/
