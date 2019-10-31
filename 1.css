@@ -61,6 +61,11 @@ a.navbar-brand {
 .tt p {
     width: 165px;
 }
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
 }
 
 .khoitt1 {
