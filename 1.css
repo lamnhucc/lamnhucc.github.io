@@ -53,6 +53,14 @@ a.navbar-brand {
     text-align: center;
     width: 100%;
 }
+
+.tt h2 {
+    font-size: 35px;
+}
+
+.tt p {
+    width: 165px;
+}
 }
 
 .khoitt1 {
