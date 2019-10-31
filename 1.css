@@ -22,9 +22,6 @@ li.nav-item {
 @media (max-width:576px)
 {
 	* {}
-}
-
-
 li.nav-item {
    	float: none!important;
    	display: inline;
@@ -45,10 +42,9 @@ a.nav-link {
     display: inline!important;
 }
 
-a.navbar-brand {}
-
 a.navbar-brand {
     display: block;
     text-align: center;
     width: 100%;
+}
 }
