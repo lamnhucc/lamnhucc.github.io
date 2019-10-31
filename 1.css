@@ -21,7 +21,12 @@ li.nav-item {
 
 @media (max-width:576px)
 {
-	* {}
+    * {}
+
+img.anh {
+    margin-top: 50px;
+    padding: 30px;
+}
 
 li.nav-item {
     display: inline;
@@ -49,4 +54,66 @@ a.navbar-brand {
     text-align: center;
     width: 100%;
 }
+}
+
+.khoitt1 {
+    width: 100%;
+    height: 100%;
+    background: #e9585f;
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+a.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+.khoitt1:before {
+    content: '';
+    width: 50%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #e4555b;
+    z-index: 1; 
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 140px;
+}
+
+img.anh {
+    width: 220px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 22px;
+}
+
+p {
+    color: #373a3c;
+    font-size: 16px;
+    line-height: 20px;
+    margin: auto;
+    width: 24%;
+    padding-bottom: 22px;
+}
+
+a.nuthire.btn.btn-primary {
+    background: black;
+    width: 180px;
+    border: none;
+    border-radius: 0px;
 }
