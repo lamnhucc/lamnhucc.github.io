@@ -18,11 +18,11 @@ li.nav-item {
     margin: 0 17px;
     padding: 0;
 }
-/*
+
 @media (max-width:576px)
 {
 	* {}
-	
+
 li.nav-item {
    	float: none!important;
    	display: inline;
@@ -39,7 +39,7 @@ li.nav-item {
 }
 
 a.nav-link {
-    line-height: 21px;
+    line-height: 27px;
     display: inline!important;
 }
 
@@ -48,4 +48,4 @@ a.navbar-brand {
     text-align: center;
     width: 100%;
 }
-}*/
+}
