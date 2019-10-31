@@ -24,8 +24,8 @@ li.nav-item {
 	* {}
 
 li.nav-item {
-   	float: none!important;
-   	display: inline;
+    display: inline;
+    float: none!important;
 }
 
 ul.nav.navbar-nav.float-xs-right {
@@ -34,13 +34,13 @@ ul.nav.navbar-nav.float-xs-right {
 }
 
 li.nav-item {
-     display: inline!important;
-     margin: 0 0; 
+    display: inline!important;
+    margin: 0 0;
 }
 
 a.nav-link {
-    line-height: 27px;
     display: inline!important;
+    line-height: 27px;
 }
 
 a.navbar-brand {
