@@ -1,1 +1,54 @@
 *{margin: 0; padding: 0;} 
+
+nav.navbar.navbar-light.bg-faded {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+a.nav-link {
+    font-family: segoe ui;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #101010;
+    line-height: 85px;
+}
+
+li.nav-item {
+    margin: 0 17px;
+    padding: 0;
+}
+
+@media (max-width:576px)
+{
+	* {}
+}
+
+
+li.nav-item {
+   	float: none!important;
+   	display: inline;
+}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align: center;
+}
+
+li.nav-item {
+     display: inline!important;
+     margin: 0 0; 
+}
+
+a.nav-link {
+    line-height: 21px;
+    display: inline!important;
+}
+
+a.navbar-brand {}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
