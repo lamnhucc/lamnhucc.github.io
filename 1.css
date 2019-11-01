@@ -80,10 +80,12 @@ body,html {
 }
 
 a.navbar-brand {
-        margin: 0px -13px;
+      /*  margin: 0px -13px;
     width: 370px;
     padding: 0px 0px;
-    background-color: white;
+    background-color: white;*/
+    margin: 0;
+    padding: 0;
 }
 
 .khoitt1:before {
