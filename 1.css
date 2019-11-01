@@ -3,6 +3,7 @@ nav.navbar.navbar-light.bg-faded {
     margin: 0;
     padding: 0;
     height: 100px;
+    background-color: white;
 }
 
 a.nav-link {
