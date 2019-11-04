@@ -33,9 +33,13 @@ img.anh {
     float: none;
 }
 
-.menutop ul.nav.navbar-nav.float-xs-right {
+.menutop .container ul.nav.navbar-nav.float-xs-right {
     float: none;
     text-align: center;
+    background: white;
+    width: 109%;
+    padding: 0 15px;
+    margin: 0px -15px;
 }
 
 .menutop li.nav-item {
