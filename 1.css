@@ -17,9 +17,11 @@ a.nav-link {
 li.nav-item {
     margin: 0 17px;
     padding: 0;
-}*/
+}
+
 /*//////////////////////////*/
-/*@media (max-width:576px)
+
+@media (max-width:576px)
 {
     * {}
 
@@ -135,114 +137,4 @@ a.nuthire.btn.btn-primary {
     width: 180px;
     border: none;
     border-radius: 0px;
-}*/
-
-/*////////////////////////////////////////////////*/
-
-
-*{margin: 0; padding: 0;}
-
-.noidung {
-    background-color: #e9e9e9;
-}
-
-.texttieude small {
-    font-size: 15px;
-    padding-top: 15px;
-    display: block;
-    padding-bottom: 49px;
-}
-
-.texttieude h2.display-4 {
-    font-size: 34px;
-    padding-top: 50px;
-}
-
-.menutop a.navbar-brand {
-    padding-top: 30px;
-}
-
-.navbar-light.menutop .navbar-nav a.nav-link {
-    color:#b3b3b3;
-    padding: 46px 15px 0px 15px;
-    font-weight: 300;
-    font-size: 18px;
-    font-family: 'Pridi', serif;
-}
-
-.navbar-light.menutop .navbar-nav a.nav-link:hover {
-    color: white;
-}
-
-nav.navbar.navbar-light.bg-faded.menutop {
-    background-color: transparent;
-}
-
-img.logonho {
-    height: 37px;
-}
-
-a.btn.btn-outline-secondary.nutxem {
-    border: 3px solid #ca2424;
-    border-radius: 0px;
-}
-
-a.btn.btn-outline-secondary.nutxem:hover {
-    background-color: white;
-    color: black;
-}
-
-.phananh img.img-fluid {
-    padding-right: 10px;
-    height: 100%;
-}
-
-.khongcokhoangtrang [class*='col-']
-{
-    padding-right: 0px;padding-left: 0px;
-} 
-/*Dùng để xóa các padding của bootstrap col-sm-...*/
-
-.khongcokhoangtrang .media {
-    margin-right: 15px;
-    background-color: white;
-    font-size: 16px;
-    height: 100px;
-    margin-bottom: 100px;   
-}
-
-@media (max-width: 576px) {
-    *{}
-button.navbar-toggler.hidden-sm-up {
-    float: right;
-    background-color: white;
-    border-radius: 0px;
-}
-
-nav.navbar.navbar-light.bg-faded.menutop {
-    background-color: #393e43;
-}
-
-.menutop img.logonho {
-    width: 50%;
-    height: auto;
-}
-
-.menutop a.navbar-brand {
-    padding: 5px 0px;
-}
-
-.navbar-light.menutop .navbar-nav a.nav-link {
-    padding: 5px;
-}
-
-.carousel-caption h2.display-4 {
-    font-size: 20px;
-}
-}
-
-/*.chuamenu {
-    position: fixed; làm menu theo kiểu css
-    top: 0;
-    z-index: 10;
 }
