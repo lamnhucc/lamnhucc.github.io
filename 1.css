@@ -1,4 +1,4 @@
-/**{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;} 
 nav.navbar.navbar-light.bg-faded {
     margin: 0;
     padding: 0;
@@ -17,10 +17,10 @@ a.nav-link {
 li.nav-item {
     margin: 0 17px;
     padding: 0;
-}*/
+}
 
 /*//////////////////////////*/
-/*
+
 @media (max-width:576px)
 {
     * {}
@@ -138,156 +138,5 @@ a.nuthire.btn.btn-primary {
     width: 180px;
     border: none;
     border-radius: 0px;
-}*/
-
-
-
-/*/////////////////////////////////////*/
-
-*{margin: 0; padding: 0;} 
-
-.top {
-    background-image: url(45.jpg);
-    background-size: cover;
-    height: 700px;
-    background-attachment: fixed;
 }
 
-.mtren {
-    background: transparent;
-}
-
-a.logo {
-    font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    font-weight: 700;
-    background: #ec6952; 
-    padding: 15px 30px;
-    position: relative;
-    top: -8px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.top .mphai a.nav-link {
-    text-transform: uppercase;
-    padding: 15px 10px;
-    font-size: 13px;
-    font-family: 'Roboto Slab', serif;
-    color:#e6e6e6;
-    transition: 0.4s;
-}
-
-.top .mphai li.active a.nav-link {
-    color: #ec9652;
-}
-
-.top .mphai a.nav-link:hover {
-    color: #ec9652;
-}
-
-.top .mphai a.nav-link.nutsign {
-    border-color: white;
-    padding: 8px 22px;
-    margin-top: 5px;
-}
-
-
-.top .mphai a.nav-link.nutsign:hover {
-    background: #ec6952;
-    border-color: #ec6952;
-    color: white;
-}
-
-/*CSS Cho Banner*/
-
-.banner h1 {
-    color: #dbdbdb;
-    padding-top: 253px;
-}
-.banner p {
-    color: gray;
-    font-size: 14px;
-    padding-top: 15px;
-    padding-bottom: 48px; 
-}
-.banner a {
-    font-family: 'Roboto Slab', serif;
-    font-size: 19px;
-    font-weight: 700;
-    padding: 14px 60px; 
-    background: #ec6952; 
-}
-
-ol.carousel-indicators li {
-    background: black;
-}
-
-ol.carousel-indicators li.active {
-    background: #ec6952;
-}
-
-ol.carousel-indicators {
-    bottom: -20px;
-}
-
-
-.logo {
-    transition: 0.4s;
-}
-
-.logo.maucam{
-    color: #F05F40;
-    transition: 0.4s;
-    background: white;
-}
-
-.navbar {
-    transition: 0.4s;
-}
-
-.navbar.trang {
-    background-color: white;
-    transition: 0.4s;
-}
-
-.nutlen {
-    opacity: 0;
-    border-radius: 50%;
-    transition: 0.2s;
-    background: #5d80a1;
-}
-
-.nutlen.hienthi {
-    opacity: 1;
-}
-
-
-
-
-@media (max-width:576px){
-    *{}
-    a.logo {
-        width:200px;
-        top:-15px;
-        margin-left:58px
-    }
-    .mphai {
-        width:100%;
-        background:#253340;
-        padding:15px
-    }
-
-    .top .mphai a.nav-link {
-        padding:10px
-    }
-
-    .banner h1 {
-    font-size: 37px;
-    padding-top: 135px;
-    }
-
-    .top {
-        height: 583px;
-    }
-}
