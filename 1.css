@@ -46,28 +46,6 @@ li.nav-item {
         display: inline;
         margin: 0 0 ;
     }
-    
-    /*.menutop ul.nav.navbar-nav.float-sm-right {
-        float: none;
-        text-align: center;
-    }
-
-    .menutop li.nav-item {
-        display: inline;
-        margin: 0 0;
-    }
-
-    .menutop a.nav-link {
-        line-height: 28px;
-        display: inline;
-    }
-
-    .menutop a.navbar-brand {
-        width: 100%;
-        text-align: center;
-        display: block;
-    }*/
-
 
     /*Xong CSS cho phần menu*/
 }
