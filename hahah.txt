@@ -1,20 +1,47 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-	<title> Example </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">  
-	<script type="text/javascript" src="vendor/bootstrap.js"></script>
- 	<script type="text/javascript" src="1.js"></script>
-	<link rel="stylesheet" href="vendor/bootstrap.css">
-	<link rel="stylesheet" href="vendor/font-awesome.css">
- 	<link rel="stylesheet" href="1.css">
-</head>
-<body >
+*{margin: 0; padding: 0;}
+
+nav.navbar.navbar-light.bg-faded {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: segoe ui;
+}
+
+li.nav-item {
+    padding: 0;
+    margin:0; 
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 33px;
+}
+
+
+@media (max-width: 576px){
+    *{}
+
+a.navbar-brand {
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
     
-	<div class="menutop">
+}
+
+/*Xong CSS cho di Ä‘á»™ng*/
+
+
+
+<div class="menutop">
             <nav class="navbar navbar-light bg-dark navbar-fixed-top">
                 <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand logo" href="#">
                     <img src="image/123321.jpg" alt="">
                 </a>
                 <ul class="nav navbar-nav float-sm-right">
@@ -34,8 +61,6 @@
                     <a class="nav-link" href="#">Comment</a>
                     </li>
                 </ul>               
-                </div>
-         	</nav> 
-    </div>
-</body>
-</html>
+                </div> <!-- Xong container -->
+        </div> <!-- Xong menutop -->
+            </nav> <!-- Xong menu -->
