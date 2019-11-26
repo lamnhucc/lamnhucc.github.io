@@ -1,47 +1,7 @@
-*{margin: 0; padding: 0;}
-
-nav.navbar.navbar-light.bg-faded {
-    padding: 0;
-    margin: 0;
-    height: 100px;
-}
-
-a.nav-link {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-family: segoe ui;
-}
-
-li.nav-item {
-    padding: 0;
-    margin:0; 
-    margin-left: 17px;
-    margin-right: 17px;
-    margin-top: 33px;
-}
-
-
-@media (max-width: 576px){
-    *{}
-
-a.navbar-brand {
-    width: 100%;
-    text-align: center;
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-    
-}
-
-/*Xong CSS cho di Ä‘á»™ng*/
-
-
-
 <div class="menutop">
             <nav class="navbar navbar-light bg-dark navbar-fixed-top">
                 <div class="container">
-                <a class="navbar-brand logo" href="#">
+                <a class="navbar-brand" href="#">
                     <img src="image/123321.jpg" alt="">
                 </a>
                 <ul class="nav navbar-nav float-sm-right">
@@ -61,6 +21,83 @@ a.navbar-brand {
                     <a class="nav-link" href="#">Comment</a>
                     </li>
                 </ul>               
-                </div> <!-- Xong container -->
-        </div> <!-- Xong menutop -->
-            </nav> <!-- Xong menu -->
+                </div>
+            </nav> 
+    </div>
+
+
+
+
+    *{margin: 0; padding: 0;} 
+
+nav.navbar.navbar-light.bg-faded {
+    padding: 0;
+    margin: 0;
+    height: 100px;
+}
+
+
+a.nav-link {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: segoe ui;
+}
+
+li.nav-item {
+    padding: 0;
+    margin:0; 
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 33px;
+}
+
+
+@media (max-width: 576px){
+    *{}
+    
+    /*CSS cho phần menu*/
+
+    .menutop ul.nav.navbar-nav.float-sm-right {
+        text-align: center;
+    }
+
+    .menutop li.nav-item a.nav-link {
+        display: inline;
+    }
+
+    .menutop a.navbar-brand {
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+    
+    .menutop li.nav-item {
+        float: none;
+        display: inline;
+        margin: 0 0 ;
+    }
+    
+    /*.menutop ul.nav.navbar-nav.float-sm-right {
+        float: none;
+        text-align: center;
+    }
+
+    .menutop li.nav-item {
+        display: inline;
+        margin: 0 0;
+    }
+
+    .menutop a.nav-link {
+        line-height: 28px;
+        display: inline;
+    }
+
+    .menutop a.navbar-brand {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }*/
+
+
+    /*Xong CSS cho phần menu*/
+}
