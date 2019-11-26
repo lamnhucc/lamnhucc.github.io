@@ -36,17 +36,18 @@ li.nav-item {
         display: inline;
     }
 
+    .menutop li.nav-item {
+        float: none;
+        display: inline;
+        margin: 0 0 ;
+    }
+    
     .menutop a.navbar-brand {
         text-align: center;
         width: 100%;
         display: block;
     }
     
-    .menutop li.nav-item {
-        float: none;
-        display: inline;
-        margin: 0 0 ;
-    }
     
     /*.menutop ul.nav.navbar-nav.float-sm-right {
         float: none;
