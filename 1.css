@@ -1,5 +1,46 @@
 *{margin: 0; padding: 0;}
 
+.khoittnho {
+    margin-bottom: 30px;
+}
+
+.khoittnho p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #636363;
+}
+
+span.motaquatrinh {
+    font-size: 20px;
+    font-family: segoe ui;
+    margin-bottom: 15px;
+    display: block;
+}
+
+h3.tieudecap3 {
+    font-size: 20px;
+    font-family: segoe ui light;
+    color: #e35855;
+    margin-bottom: 15px;
+}
+
+span.dam {
+    font-weight: bold;
+}
+
+h2.tieudecap2 {font-weight: normal;font-family: segoe ui light;text-transform: uppercase;font-size: 25px;margin-bottom: 15px;}
+
+.tieudeto{
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    background: url(image/42.jpg) no-repeat left bottom;
+    display: inline;
+    padding-bottom: 10px;
+}
+
 a.nuthire.btn.btn-primary {
     border: none;
     background: black;
@@ -14,7 +55,7 @@ a.nuthire.btn.btn-primary {
     width: 47%;
     margin: auto;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .tt h2.display-4 {
@@ -25,13 +66,13 @@ a.nuthire.btn.btn-primary {
 .tt {
     z-index: 4;
     position: relative;
-    padding-top: 15%;
+    padding-top: 20%;
 }
 
 .tt img {
     border-radius: 50%;
-    padding-bottom: 15px;
-    width: 160px;
+    padding-bottom: 20px;
+    width: 250px;
 } 
 
 html,body {
@@ -91,7 +132,12 @@ a.navbar-brand {
 
 @media (max-width: 576px){
     *{}
-    /*CSS cho phÃƒÂ¡Ã‚ÂºÃ‚Â§n menu*/
+
+    html,body {
+	width: 100%;
+	height: 100%;
+	}
+    /*CSS cho phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n menu*/
 
     /*.menutop ul.nav.navbar-nav.float-sm-right {
         text-align: center;
@@ -136,7 +182,7 @@ a.navbar-brand {
     }
 
 
-    /*Xong CSS cho phÃƒÂ¡Ã‚ÂºÃ‚Â§n menu*/
+    /*Xong CSS cho phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n menu*/
 	
 	/*CSS thong tin*/
 
