@@ -1,5 +1,34 @@
 *{margin: 0; padding: 0;}
 
+.xuong {
+    width: 40px;
+    height: 90px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 6;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.xuong:hover {
+    bottom: 5%;
+}
+
+.xuong:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: white;
+    height: 5px;
+    top: 15%;
+    left: 46%;
+    transition: 0.4s;
+}
+
 .khoittnho {
     margin-bottom: 30px;
 }
@@ -72,12 +101,12 @@ a.nuthire.btn.btn-primary {
 .tt img {
     border-radius: 50%;
     padding-bottom: 20px;
-    width: 250px;
+    width: 200px;
 } 
 
 html,body {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 nav.navbar.navbar-light.bg-dark.navbar-fixed-top {
@@ -134,10 +163,10 @@ a.navbar-brand {
     *{}
 
     html,body {
-	width: 100%;
-	height: 100%;
-	}
-    /*CSS cho phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n menu*/
+    width: 100%;
+    height: 100%;
+    }
+    /*CSS cho phÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n menu*/
 
     /*.menutop ul.nav.navbar-nav.float-sm-right {
         text-align: center;
@@ -182,34 +211,34 @@ a.navbar-brand {
     }
 
 
-    /*Xong CSS cho phÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â§n menu*/
-	
-	/*CSS thong tin*/
+    /*Xong CSS cho phÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â§n menu*/
+    
+    /*CSS thong tin*/
 
-	ul.nav.navbar-nav.float-xs-right {
-		background: white;
-		width: 109%;
-		display: block;
-		margin: 0;
-		padding-left: 75px;
-		margin-right: -15px;
-		border-top: 2px solid gray;
-	}
+    ul.nav.navbar-nav.float-xs-right {
+        background: white;
+        width: 109%;
+        display: block;
+        margin: 0;
+        padding-left: 75px;
+        margin-right: -15px;
+        border-top: 2px solid gray;
+    }
 
-	.tt h2.display-4 {
+    .tt h2.display-4 {
     font-size: 45px;
     padding-top: 15px;
-	}
+    }
 
-	.tt img {
-		width: 160px;
-		margin-top: 160px;
-	}
-	
-	.tt p {
-		width: 240px;
-	}
-	/* Xong CSS thong tin*/
+    .tt img {
+        width: 160px;
+        margin-top: 160px;
+    }
+    
+    .tt p {
+        width: 240px;
+    }
+    /* Xong CSS thong tin*/
 
     .tieudeto h1 {
     font-size: 29px;
@@ -219,3 +248,4 @@ a.navbar-brand {
     margin-top: 30px;
     }
 }
+
