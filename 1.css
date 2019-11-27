@@ -214,4 +214,8 @@ a.navbar-brand {
     .tieudeto h1 {
     font-size: 29px;
     }
+
+    h2.tieudecap2.text-sm-left.text-xs-center {
+    margin-top: 30px;
+    }
 }
