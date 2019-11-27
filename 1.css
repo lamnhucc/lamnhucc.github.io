@@ -210,4 +210,8 @@ a.navbar-brand {
 		width: 240px;
 	}
 	/* Xong CSS thong tin*/
+
+    .tieudeto h1 {
+    font-size: 29px;
+    }
 }
