@@ -6,7 +6,7 @@
  	})
 
  	$(".xuongnua,.slide").click(function(){
- 		$('body,html').animate({scrollTop:$('#sl').offset().top},1400);
+ 		$('body,html').animate({scrollTop:$('#sl').offset().top},1000);
  		return false;
  	})
  })
