@@ -279,7 +279,7 @@ html,body,#slidewrapper,.slides,.slides ul,.slides ul li,.slides ul li ._1slide{
 
 .nuts {
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
     left: 50%;
     z-index: 10;
     transform: translateX(-50%);
