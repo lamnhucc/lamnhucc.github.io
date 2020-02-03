@@ -73,5 +73,6 @@ chuyenSlidenutphai = function(){NutPhaiVaNutTrai('nutPhai');}
 nutPhai.addEventListener('click',chuyenSlidenutphai);
 
 chuyenSlidenuttrai = function(){NutPhaiVaNutTrai('nutTrai');}
-nutTrai.addEventListener('click',chuyenSlidenuttrai);
  },false)
+
+nutTrai.addEventListener('click',chuyenSlidenuttrai);
