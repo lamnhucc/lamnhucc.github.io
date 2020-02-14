@@ -10,7 +10,7 @@
  		return false;
  	})
  })
- document.addEventListener("DOMContentLoaded",function(){
+document.addEventListener("DOMContentLoaded",function(){
 var nutTrai = document.querySelector('.nuts b.trai'),
 	nutPhai = document.querySelector('.nuts b.phai'),
 	slides = document.querySelectorAll('.slides ul li'),
@@ -73,6 +73,6 @@ chuyenSlidenutphai = function(){NutPhaiVaNutTrai('nutPhai');}
 nutPhai.addEventListener('click',chuyenSlidenutphai);
 
 chuyenSlidenuttrai = function(){NutPhaiVaNutTrai('nutTrai');}
- },false)
-
 nutTrai.addEventListener('click',chuyenSlidenuttrai);
+
+},false)
