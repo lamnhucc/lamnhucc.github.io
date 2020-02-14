@@ -57,7 +57,13 @@ span.dam {
     font-weight: bold;
 }
 
-h2.tieudecap2 {font-weight: normal;font-family: segoe ui light;text-transform: uppercase;font-size: 25px;margin-bottom: 15px;}
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
 
 .tieudeto{
     margin-top: 120px;
@@ -161,20 +167,21 @@ a.navbar-brand {
 
 @media (max-width: 576px){
     *{}
+    
+    a.link {
+        opacity: 1!important;
+        visibility: visible!important;
+        text-align: center;
+        align-items: center;
+        margin-left: 45%;
+        color: black;
+        text-decoration: none;
+    }
 
     div#slidewrapper {
     width: 0%;
     height: 0%;
     opacity: 0;
-    }
-
-    a.link {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: black;
-    text-decoration: none;
     }
 
     html,body {
@@ -361,11 +368,8 @@ html,body,#slidewrapper,.slides,.slides ul,.slides ul li,.slides ul li ._1slide{
     }
 }
 
+
 a.link {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: black;
-    text-decoration: none;
+    opacity: 0;
+    visibility: hidden;
 }
