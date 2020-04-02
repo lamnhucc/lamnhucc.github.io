@@ -1,33 +1,6 @@
 *{margin: 0; padding: 0;}
 
-.xuong {
-    width: 40px;
-    height: 90px;
-    border: 1px solid white;
-    position: absolute;
-    left: 50%;
-    border-radius: 20px;
-    bottom: 2%;
-    margin-left: -20px;
-    z-index: 6;
-    transition: 0.4s;
-    cursor: pointer;
-}
 
-.xuong:hover {
-    bottom: 5%;
-}
-
-.xuong:after {
-    content: '';
-    position: absolute;
-    width: 5px;
-    background: white;
-    height: 5px;
-    top: 15%;
-    left: 46%;
-    transition: 0.4s;
-}
 
 .khoittnho {
     margin-bottom: 30px;
@@ -76,39 +49,7 @@ h2.tieudecap2 {
     padding-bottom: 10px;
 }
 
-a.nuthire.btn.btn-primary {
-    border: none;
-    background: black;
-    width: 180px;
-    text-transform: uppercase;
-    border-radius: 20px;
-}
 
-.tt p {
-    padding-top: 10px;
-    font-size: 15px;
-    width: 47%;
-    margin: auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.tt h2.display-4 {
-    font-size: 50px;
-    color: white;
-}
-
-.tt {
-    z-index: 4;
-    position: relative;
-    padding-top: 20%;
-}
-
-.tt img {
-    border-radius: 50%;
-    padding-bottom: 20px;
-    width: 200px;
-} 
 
 html,body {
     width: 100%;
@@ -161,6 +102,69 @@ a.navbar-brand {
     width: 50%;
     height: 100%;
     z-index: 2;
+}
+
+a.nuthire.btn.btn-primary {
+    border: none;
+    background: black;
+    width: 180px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.tt p {
+    padding-top: 10px;
+    font-size: 15px;
+    width: 47%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.tt h2.display-4 {
+    font-size: 50px;
+    color: white;
+}
+
+.tt {
+    z-index: 4;
+    position: relative;
+    padding-top: 20%;
+}
+
+.tt img {
+    border-radius: 50%;
+    padding-bottom: 20px;
+    width: 200px;
+} 
+
+.xuong {
+    width: 40px;
+    height: 90px;
+    border: 1px solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 6;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.xuong:hover {
+    bottom: 5%;
+}
+
+.xuong:after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background: white;
+    height: 5px;
+    top: 15%;
+    left: 46%;
+    transition: 0.4s;
 }
 
 /*Xong CSS cho khoi tin*/
@@ -263,7 +267,6 @@ nav.navbar.navbar-light.bg-dark.navbar-fixed-top.mauden {
     background:#e9585f;
     transition: 0.4s;
 }
-
 
 
 
